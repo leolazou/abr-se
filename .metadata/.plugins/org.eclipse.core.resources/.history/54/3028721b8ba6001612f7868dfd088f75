@@ -1,7 +1,3 @@
-import java.util.List;
-import java.lang.Integer;
-import java.util.ArrayList;
-
 
 public class ABR extends java.lang.Object {
 
@@ -24,23 +20,14 @@ public class ABR extends java.lang.Object {
 	
 	private int p_k (int p1, int p2) {
 		for (int i=0; i<this.keys.length; i++) {
-			if (this.place[i] == p1 && this.place[i+1] == p2) {
+			if (this.place[i] == p1 && this.place[i+1] == p2) 
 				return this.keys[i];
 			}
 		}
 	}
 	
 	public void insert (int a) {
-		int i = 0 ;
-		int j = 0 ;
-		int k = 0 ;
-		if (this.isEmpty()) {
-			this.keys = append(this.keys, a);
-		} else {
-			while (i==0) {
-				if (this.  // unfinished
-			}
-		}
+		
 	}
 	
 	public boolean isEmpty () {
@@ -60,7 +47,5 @@ public class ABR extends java.lang.Object {
 		 return false ;
 	}
 
-	public void toList(java.util.List<java.lang.Integer> l) {
-			
-		}
-	}
+	
+}

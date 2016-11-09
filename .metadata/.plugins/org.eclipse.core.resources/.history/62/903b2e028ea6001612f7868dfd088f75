@@ -1,6 +1,5 @@
 import java.util.List;
 import java.lang.Integer;
-import java.util.ArrayList;
 
 
 public class ABR extends java.lang.Object {
@@ -31,16 +30,7 @@ public class ABR extends java.lang.Object {
 	}
 	
 	public void insert (int a) {
-		int i = 0 ;
-		int j = 0 ;
-		int k = 0 ;
-		if (this.isEmpty()) {
-			this.keys = append(this.keys, a);
-		} else {
-			while (i==0) {
-				if (this.  // unfinished
-			}
-		}
+		
 	}
 	
 	public boolean isEmpty () {
@@ -61,6 +51,9 @@ public class ABR extends java.lang.Object {
 	}
 
 	public void toList(java.util.List<java.lang.Integer> l) {
-			
+		
+		for (int i=0; i<this.keys.length; i++) {
+			int[] r = {this.keys[i], this.place[i], this.place[i+1]};
+			l.add(r);
 		}
 	}
