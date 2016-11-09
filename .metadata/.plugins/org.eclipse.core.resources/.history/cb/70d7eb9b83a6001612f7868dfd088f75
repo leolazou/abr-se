@@ -1,0 +1,21 @@
+
+public class ABR {
+
+	public String
+	public int key[] ;
+	
+	public ABR () {
+		this.key = key ;
+			
+	}
+	
+	public boolean contains(int i) {
+		 for (int j=0; j<this.key.length; j++) {
+			 if (i == this.key[j]) {
+				 return true ;
+			 }
+		 }
+		 return false ;
+	}
+	
+}
